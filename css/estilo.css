@@ -1,0 +1,65 @@
+body{
+    color: #9467a1;
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    color: #7fffd4;
+    text-decoration: none;
+}
+a:hover{
+    color: #581d22;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h4, h5{
+    font-family: "Raleway" sans-serif;
+}
+.back-to-top{
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background-color: #581d22;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.back-to-top i{
+    font-size: 28px;
+    color: #7fffd4;
+    line-height: 0;
+}
+.back-to-top.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Header */
+#header{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    transition: all ease-in-out 0,5s;
+    z-index: 997;
+    padding: 0 15px;
+    background: #9467a1;
+    overflow-y: auto;
+}
+#header .profile img{
+    margin: 15px auto;
+    display: block;
+    width: 150px;
+    border: 5px solid #7fffd4;
+}
+#header .profile h1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600px;
+    text-align-last: center;
+    font-family: "Poppins" sans-serif;
+}
