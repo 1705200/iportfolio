@@ -418,7 +418,7 @@ section {
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-    color: #040b14;
+    color: #4f2b58;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
 }
@@ -455,15 +455,15 @@ section {
     justify-content: center;
 }
 .portfolio .portfolio-wrap .portfolio-links a{
-    color: #122f57;
+    color: #7fffd4;
     font-size: 28px;
     text-align: center;
-    background: #272829;
+    background: #581d22;
     transition: 0.3s;
     width: 50%;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover{
-    background: rgba(20, 157, 221, 0.95);
+    background: rgba(164, 20, 221, 0.644);
 }
 .portfolio .portfolio-wrap .portfolio-links a+a{
     border-left: 1px solid #4f2b58;
