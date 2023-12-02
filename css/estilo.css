@@ -465,17 +465,17 @@ section {
 .portfolio .portfolio-wrap .portfolio-links a:hover{
     background: rgba(20, 157, 221, 0.95);
 }
-.portfolio #portfolio-wrap .portfolio-links a+a{
+.portfolio .portfolio-wrap .portfolio-links a+a{
     border-left: 1px solid #4f2b58;
 }
-.portfolio #portfolio-wrap:hover::before{
+.portfolio .portfolio-wrap:hover::before{
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 1;
 }
-.portfolio #portfolio-wrap:hover .portfolio-links{
+.portfolio .portfolio-wrap:hover .portfolio-links{
     opacity: 1;
     bottom: 0;
 }
