@@ -10,9 +10,11 @@ a:hover{
     color: #581d22;
     text-decoration: none;
 }
-h1, h2, h3, h4, h4, h5{
+h1, h2, h3, h4, h4, h5, h6{
     font-family: "Raleway" sans-serif;
 }
+
+/* botão back to top*/
 .back-to-top{
     position: fixed;
     visibility: hidden;
@@ -20,7 +22,7 @@ h1, h2, h3, h4, h4, h5{
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background-color: #581d22;
+    background: #581d22;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -30,6 +32,12 @@ h1, h2, h3, h4, h4, h5{
     font-size: 28px;
     color: #7fffd4;
     line-height: 0;
+}
+.back-to-top:hover{
+    background: #4f2b58;
+    color: #7fffd4;
+    transition: 0.5;
+
 }
 .back-to-top.active{
     visibility: visible;
@@ -44,7 +52,7 @@ h1, h2, h3, h4, h4, h5{
     left: 0;
     width: 300px;
     transition: all ease-in-out 0,5s;
-    z-index: 997;
+    z-index: 9997;
     padding: 0 15px;
     background: #9467a1;
     overflow-y: auto;
@@ -52,8 +60,8 @@ h1, h2, h3, h4, h4, h5{
 #header .profile img{
     margin: 15px auto;
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border: 5px solid #7fffd4;
 }
 #header .profile h1{
@@ -107,11 +115,18 @@ h1, h2, h3, h4, h4, h5{
     }
 }
 /* Menu de navegação Desktop*/
+.nav-menu {
+    padding: 30px 0 0 0;
+}
 
 .nav-menu * {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.nav-menu>ul>li{
+    position: relative;
+    white-space: nowrap;
 }
 .nav-menu a, .nav-menu a:focus{
     display: flex;
@@ -225,7 +240,7 @@ section {
     overflow: hidden;
 }
 .section-bg{
-    background: #ffffff;
+    background: #f1f1f1b9
 }
 .section-title {
     padding-bottom: 30px;
@@ -252,24 +267,24 @@ section {
     margin-bottom: 0;
 }
 /*=== Sobre  ====*/ 
-#about .content h3{
+.about .content h3{
     font-weight: 700;
     font-size: 26px;
     color: #173b6c;
 }
-#about .content ul {
+.about .content ul {
     list-style: none;
     padding: 0;
 }
-#about .content ul li{
+.about .content ul li{
     margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
-#about .content ul strong {
+.about .content ul strong {
     margin-right: 10px;
 }
-#about .content ul i {
+.about .content ul i {
     font-size: 16px;
     margin-right: 5px;
     color: #2eafec;
@@ -407,6 +422,7 @@ section {
     padding: 0;
     margin: 0 auto 35px auto;
     list-style: none;
+    text-align: center;
     background: #9467a1;
     border-radius: 50px;
 }
@@ -564,6 +580,50 @@ section {
         display: inline-block;
     }
 }
+
+/* Serviços */
+.services .icon-box {
+    margin-bottom: 20px;
+}
+.services .icon{
+    float: left;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #4f2b58;
+    transition: 0.5s;
+}
+.services .icon i{
+    color: #fff;
+    font-size: 24px;
+    line-height: 0; /* altura de linha zerada para não ter quebra*/
+}
+.services .icon-box:hover .icon{
+    background: #7fffd4;
+}
+.services .icon-box:hover .icon i{
+    color: #4f2b58;
+}
+.services .title{
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.services .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+
+}
+
+
+/* Avaliações*/
+
+
 
 
 
