@@ -671,7 +671,7 @@ section {
     position: relative;
     margin-bottom: 35px;
     border-radius: 6px;
-    box-shadow: 0 2px 15px  rgba(83, 83, 83, 0.918);
+    box-shadow: 0 2px 15px  rgba(83, 83, 83, 0.116);
 }
 .testimonials .testimonial-item p::after {
     content: "";
@@ -700,13 +700,71 @@ section {
 
 
 
-
-
-
-
-
-
 /* Contatos*/
+.contact {
+    padding-bottom: 130px;
+}
+.contact .info {
+    padding: 30px;
+    background: #d4d4d4a2;
+    width: 100%;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+
+}
+.contact .info i{
+    font-size: 20px;
+    color: #581d22;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #9467a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.contact .info h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #000000;
+}
+.contact .info p{
+    padding: 0 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #4f2b58;
+}
+.contact .info .email p {
+    padding-top: 5px;
+}
+.contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #4f2b58;
+    color: #7fffd4;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+.contact .info .social-links a:hover {
+    background:#7fffd4;
+    color: #4f2b58;
+}
+.contact .info .endereco:hover i,
+.contact .info .email:hover i,
+.contact .info .fone:hover i {
+    background: #581d22;
+    color: #7fffd4;
+} 
+
 
 #footer {
     padding: 15px;
