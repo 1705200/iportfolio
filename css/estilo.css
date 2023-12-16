@@ -806,7 +806,7 @@ section {
     text-align: center;
     font-size: 13px;
 }
-.contact .php-email-form .loading:before{
+.contact .php-email-form .loading::before{
     content: "";
     display: inline-block;
     border-radius: 50%;
@@ -816,7 +816,6 @@ section {
     border: 3px solid #581d22;
     border-top-color: #7fffd4;
     animation: animate-loading 1s  linear infinite;
-
 }
 .contact .php-email-form label{
     padding-bottom: 8px;
@@ -826,10 +825,10 @@ section {
     box-shadow: none;
     font-size: 14px;
 }
-.contact .php-email-form input {
+.contact .php-email-form input{
         height: 44px;
 }
-.contact .php-email-form textarea {
+.contact .php-email-form textarea{
     padding: 10px 15px;
 }
 .contact .php-email-form button[type=submit]{
