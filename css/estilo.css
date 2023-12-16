@@ -764,7 +764,59 @@ section {
     background: #581d22;
     color: #7fffd4;
 } 
+.contact .php-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #8a8b94;
+    box-shadow: 0 0 24px rgba(0,0, 0, 0, 0.12);
+}
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+.contact .php-email-form .validate {
+    display: none;
+    color: blue;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+.contact .php-email-form .validate {
+    display: none;
+    color: #fff;
+    background: red;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+.contact .php-email-form .error-message br+br {
+    margin-top: 25px;
+}
+.contact .php-email-form .sent.message {
+    display: none;
+    color: #fff;
+    background: green;
+    text-align: center;
+    font-size: 13px;
+    padding: 15px;
+}
+.contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+.contact .php-email-form .loading:before{
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #581d22;
+    border-top-color: #7fffd4;
+    animation: animate-loading 1s  linear infinite;
 
+}
 
 #footer {
     padding: 15px;
