@@ -14,7 +14,7 @@ $body = "Nome: ".$nome. "\n".
         "Assunto: ".$assunto. "\n".
         "Mensagem: ".$mensagem;
 
-$header = "From: amandaluciabrito73@gmail.com" "\r\n"."Reply-To: ".$email. "\r\n" ."X=Mailer:PHP/" .phpversion();
+$header = "From: amandaluciabrito@hotmail.com" "\r\n"."Reply-To: ".$email. "\r\n" ."X=Mailer:PHP/" .phpversion();
 
 if(mail($to,$subject,$header)){
     echo("Email enviado com sucesso");
